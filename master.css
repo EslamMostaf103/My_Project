@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+.parent {
+    background-color: #eeeeee;
+    width: 365px;
+    height: 428px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color: black;
+    text-align: center;
+    width: 345px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -8px 10px;
+    flex-wrap: wrap;
+}
+
+.form {
+    background-color: black;
+    color: white;
+    width: 343px;
+    height: 70px;
+    margin: 20px auto
+}
+
+.button button {
+    background-color: #ffffff;
+    font-size: 30px;
+    color: black;
+    width: 75px;
+    padding: 15px;
+    margin-right: 10px;
+    height: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button .rest {
+    width: 155px;
+    height: 47px;
+}
+
+.button .equal {
+    width: 155px;
+    height: 47px;
+}
